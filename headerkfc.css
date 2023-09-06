@@ -1,0 +1,89 @@
+.head-part{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+    border-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:white;
+    padding-top: 35px;
+
+}
+.kfc-logo{
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 100px;
+
+}
+.kfc-logo:hover{
+   cursor: pointer;
+}
+.left-section-text{
+    margin-left: 30px;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 15px;
+}
+.left-section-text:hover{
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    padding-right: 50px;
+}
+.right-section-text-sing-in{
+    margin-top: 20px;
+    width: 80px;
+}
+.right-section-text-sing-in:hover{
+    cursor: pointer;
+}
+.sign-in-text{
+    margin-left: 10px;
+    vertical-align: top;
+    font-family: Roboto,Arial;
+    font-size: 13px;
+    font-weight: 700;
+}
+ .vertical-line {
+   font-size: 44px;
+   color:rgb(164, 164, 164);
+   display: inline-block;
+}
+.rupee{
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    font-weight: 700;
+}
+.cart-logo{
+    width: 3.2rem;
+    position: relative;
+}
+.cart-logo:hover{
+     cursor: pointer;
+}
+.cart-logo-image{
+width: 100%;
+}
+.cart-count{
+    position:absolute;
+    top: 28px;
+    right: 22px;
+    bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    text-align: center;
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+}

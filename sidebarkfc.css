@@ -1,0 +1,45 @@
+.sidebar{
+    position: fixed;
+    left: 90px;
+    bottom: 0;
+    top: 138px;
+    background-color: white;
+}
+.strips-logo{
+    height: 30px;
+    width: 90px;
+    margin-left: 140px;
+    margin-top: 95px;
+    position: fixed;
+}
+
+
+.sidebar-link{
+    height: 50px;
+    width: 280px;
+}
+.sidebar-link .menu-name
+{
+    font-family:Roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 72px;
+    margin-top: 10px;
+    color: rgb(91, 91, 91);
+
+
+}
+
+
+
+.sidebar-link:hover{
+    cursor: pointer;
+}
+.kfc-menu-div{
+    font-family: Lexend,sans-serif;
+    margin-left: 70px;
+}
+.current-menu{
+    font-weight:700;
+    color: black;
+}
